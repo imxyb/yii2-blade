@@ -15,5 +15,5 @@
     },
     "autoload": {
         "psr-4": { "xyb\\blade\\": "" }
-    },
+    }
 }
