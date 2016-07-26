@@ -1,0 +1,28 @@
+{
+    "name": "xyb/yii2-blade",
+    "description": "The blade integration for the Yii framework",
+    "keywords": ["yii2", "blade", "renderer"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "xyb",
+            "email": "781028081@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": { "xyb\\blade\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
